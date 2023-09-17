@@ -114,44 +114,7 @@ export default function Home() {
             </Typography>
           </Box>
         </Box>
-        <Box id="project" sx={{ marginTop: '20px', backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif", display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'top'}, justifyContent: 'flex-start', width: '100%' }}>
-          <Box sx={{ height: '200px', width: '200px', backgroundColor: 'grey', borderRadius: '24px' }} component="img" src="/p1.png">
-          </Box>
-          <Box sx={{marginLeft: {xs: '0px', md: '40px'}, width: {xs: '100%', md: 'calc(100% - 220px)'} }}>
-            <Box sx={{ width: '100%', display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}}}>
-              <Typography sx={{ fontSize: '24px', fontFamily: "Poppins, sans-serif", marginBottom: '10px', marginTop: {xs: "20px", md: '0px'} }}>
-                Personal Website
-              </Typography>
-              <Typography sx={{ fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", marginBottom: '10px', color: '#6a6a6a' }}>
-                <Typography component="a" href="https://www.zarakazi.ca/" sx={{ color: "#6a6a6a", textDecoration: 'none', "&:hover": {color: 'purple'}, fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", cursor: 'pointer' }}>zarakazi.ca</Typography> | August 2023
-              </Typography>
-            </Box>
-            <Typography sx={{ fontSize: '20px', color: '#6a6a6a', textAlign: {xs: 'center', md: "left"} }}>
-              This was my first web development project I undertook, creating the site you&apos;re currently on! I built this website using <b>NextJS</b> and <b>Typescript</b>,
-              leveraging <b>Material UI</b> for my component library and applying custom styling overtop of the design library. To host this site, I am using <b>Vercel</b> as it integrates nicely with the front-end framework. 
-              This project is my first venture into web application design and it enabled me to not only learn a ton, but create a platform to showcase my work!
-            </Typography>
-          </Box>
-        </Box>
-        <Box id="project" sx={{ marginTop: '20px', backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif", display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'top'}, justifyContent: 'flex-start', width: '100%' }}>
-          <Box sx={{ height: '200px', width: '200px', backgroundColor: 'grey', borderRadius: '24px' }} component="img" src="/p1.png">
-          </Box>
-          <Box sx={{marginLeft: {xs: '0px', md: '40px'}, width: {xs: '100%', md: 'calc(100% - 220px)'} }}>
-            <Box sx={{ width: '100%', display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}}}>
-              <Typography sx={{ fontSize: '24px', fontFamily: "Poppins, sans-serif", marginBottom: '10px', marginTop: {xs: "20px", md: '0px'} }}>
-                Personal Website
-              </Typography>
-              <Typography sx={{ fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", marginBottom: '10px', color: '#6a6a6a' }}>
-                <Typography component="a" href="https://www.zarakazi.ca/" sx={{ color: "#6a6a6a", textDecoration: 'none', "&:hover": {color: 'purple'}, fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", cursor: 'pointer' }}>zarakazi.ca</Typography> | August 2023
-              </Typography>
-            </Box>
-            <Typography sx={{ fontSize: '20px', color: '#6a6a6a', textAlign: {xs: 'center', md: "left"} }}>
-              This was my first web development project I undertook, creating the site you&apos;re currently on! I built this website using <b>NextJS</b> and <b>Typescript</b>,
-              leveraging <b>Material UI</b> for my component library and applying custom styling overtop of the design library. To host this site, I am using <b>Vercel</b> as it integrates nicely with the front-end framework. 
-              This project is my first venture into web application design and it enabled me to not only learn a ton, but create a platform to showcase my work!
-            </Typography>
-          </Box>
-        </Box>
+        
       </Box>
       <Box id="sec4" sx={{ width: '100%', backgroundColor: '#f7f7f7', borderRadius: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: {xs: '20px', md: '40px'}, marginTop: '20px' }}>
         <Typography sx={{ fontSize: {xs: '48px', md: '60px'}, width: '100%', textAlign: 'center', marginBottom: '20px', fontFamily: "Poppins, sans-serif", marginTop: {xs: '20px', md: '0px'}  }}>
