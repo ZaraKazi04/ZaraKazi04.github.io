@@ -42,7 +42,7 @@ export default function Home() {
         </Typography>
         <Box id="buttons" sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: '15px' }}>
           <Tooltip title="Resume">
-            <IconButton target="_blank" href="/documents/resume.pdf" sx={{ backgroundColor: '#e7e7e7', padding: "15px", marginRight: '15px' }}>
+            <IconButton target="_blank" href="/resume.pdf" sx={{ backgroundColor: '#e7e7e7', padding: "15px", marginRight: '15px' }}>
               <DescriptionIcon />
             </IconButton>
           </Tooltip>
@@ -137,7 +137,7 @@ export default function Home() {
                 </IconButton>
               </Tooltip>
               <Tooltip title="Resume">
-                <IconButton target="_blank" href="/documents/resume.pdf" sx={{ backgroundColor: '#d7d7d7', padding: "15px", borderRadius: '10px', height: '100px', width: '100px' }}>
+                <IconButton target="_blank" href="/resume.pdf" sx={{ backgroundColor: '#d7d7d7', padding: "15px", borderRadius: '10px', height: '100px', width: '100px' }}>
                   <DescriptionIcon sx={{ fontSize: '36px' }}/>
                 </IconButton>
               </Tooltip>
