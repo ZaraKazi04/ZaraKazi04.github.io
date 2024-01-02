@@ -95,6 +95,27 @@ export default function Home() {
         <Typography sx={{ fontSize: {xs: '48px', md: '60px'}, width: '100%', textAlign: 'center', marginBottom: '20px', fontFamily: "Poppins, sans-serif", marginTop: {xs: '20px', md: '0px'}  }}>
           My <span style={{color: 'purple', fontWeight: '600'}}>Projects</span>
         </Typography>
+
+        <Box id="project" sx={{ backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif", display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'top'}, justifyContent: 'flex-start', width: '100%', marginBottom: '20px' }}>
+          <Box sx={{ height: '200px', width: '200px', backgroundColor: 'grey', borderRadius: '24px' }} component="img" src="/p2.png">
+          </Box>
+          <Box sx={{marginLeft: {xs: '0px', md: '40px'}, width: {xs: '100%', md: 'calc(100% - 220px)'} }}>
+            <Box sx={{ width: '100%', display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}}}>
+              <Typography sx={{ fontSize: '24px', fontFamily: "Poppins, sans-serif", marginBottom: '10px', marginTop: {xs: "20px", md: '0px'} }}>
+                MyShoppingList
+              </Typography>
+              <Typography sx={{ fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", marginBottom: '10px', color: '#6a6a6a' }}>
+                <Typography component="a" href="https://my-shopping-list-three.vercel.app/" sx={{ color: "#6a6a6a", textDecoration: 'none', "&:hover": {color: 'purple'}, fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", cursor: 'pointer' }}>my-shopping-list-three.vercel.app</Typography> | December 2023
+              </Typography>
+            </Box>
+            <Typography sx={{ fontSize: '20px', color: '#6a6a6a', textAlign: {xs: 'center', md: "left"} }}>
+              This was my first attempt at learning how to leverage <b>React Hooks</b> in a development project. I created a tool that allows users to create their shopping list and keep track of their items while shopping. This web app was built using <b>React</b> and <b>JavaScript</b>,
+              and had a fully custom-made front end in pure <b>CSS</b>. To host this site, I am using <b>Vercel</b> as it makes delopements and maintaince a breeze!
+              This project is one of my first experiments with the intricacies of React, enabling me to not only learn a lot about this framework, but create a tool to showcase my learning!
+            </Typography>
+          </Box>
+        </Box>
+
         <Box id="project" sx={{ backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif", display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'top'}, justifyContent: 'flex-start', width: '100%' }}>
           <Box sx={{ height: '200px', width: '200px', backgroundColor: 'grey', borderRadius: '24px' }} component="img" src="/p1.png">
           </Box>
