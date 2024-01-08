@@ -110,7 +110,7 @@ export default function Home() {
             </Box>
             <Typography sx={{ fontSize: '20px', color: '#6a6a6a', textAlign: {xs: 'center', md: "left"} }}>
               This was my first attempt at learning how to leverage <b>React Hooks</b> in a development project. I created a tool that allows users to create their shopping list and keep track of their items while shopping. This web app was built using <b>React</b> and <b>JavaScript</b>,
-              and had a fully custom-made front end in pure <b>CSS</b>. To host this site, I am using <b>Vercel</b> as it makes delopements and maintaince a breeze!
+              and had a fully custom-made front end in pure <b>CSS</b>. To host this site, I am using <b>Vercel</b> as it makes developments and maintaince a breeze!
               This project is one of my first experiments with the intricacies of React, enabling me to not only learn a lot about this framework, but create a tool to showcase my learning!
             </Typography>
           </Box>
