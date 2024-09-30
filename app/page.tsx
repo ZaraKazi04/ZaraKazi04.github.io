@@ -109,7 +109,7 @@ export default function Home() {
               </Typography>
             </Box>
             <Typography sx={{ fontSize: '20px', color: '#6a6a6a', textAlign: {xs: 'center', md: "left"} }}>
-              This was my first time participating in QHacks at Queen's University, and my teammates and I successfully developed an application that detects bias in datasets using AI. We integrated a large language model (<b>LLM</b>) 
+              This was my first time participating in QHacks at Queen&apos;s University, and my teammates and I successfully developed an application that detects bias in datasets using AI. We integrated a large language model (<b>LLM</b>) 
               to help explain to users the types of bias present and provide suggestions for resolution. For the website, I utilized <b>HTML</b>, <b>CSS</b>, and <b>Flask</b> to create an appealing and user-friendly platform, allowing users to easily upload .CSV files. 
               This project was challenging because I was working with several new technologies, including <b>LLM</b>s, bridging front-end and back-end systems written in different languages, and modeling datasets with <b>Kaggle</b>. Despite these challenges, 
               through strong teamwork, we completed the hackathon with a functioning project and a valuable new set of skills!
