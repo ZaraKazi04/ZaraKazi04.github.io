@@ -42,7 +42,7 @@ export default function Home() {
         </Typography>
         <Box id="buttons" sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: '15px' }}>
           <Tooltip title="Resume">
-            <IconButton target="_blank" href="/ZaraKazi.pdf" sx={{ backgroundColor: '#e7e7e7', padding: "15px", marginRight: '15px' }}>
+            <IconButton target="_blank" href="/resume-updated.pdf" sx={{ backgroundColor: '#e7e7e7', padding: "15px", marginRight: '15px' }}>
               <DescriptionIcon />
             </IconButton>
           </Tooltip>
@@ -83,7 +83,7 @@ export default function Home() {
         </Typography>
         <Box sx={{ backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif" }}>
           <Typography sx={{ fontSize: '20px', color: '#6a6a6a' }}>
-            Hi, my name is Zara! I&apos;m a first year student at Queen&apos;s University, currently studying Computer Science with a specialization in Cognitive Sciences. 
+            Hi, my name is Zara! I&apos;m a second year student at Queen&apos;s University, currently studying Computer Science with a specialization in Artificial Intelligence. 
             Outside of school, I play Tennis at a competitive level and enjoy spending my free time on the court. 
             I&apos;m also a big fan of music, often snobbing over the latest releases from my favourite artists or scouring through my dads archive of vintage vinyls!
             I am driven by projects that elevate the lives of mankind and focus on fostering change in my local and global community.
@@ -96,6 +96,27 @@ export default function Home() {
           My <span style={{color: 'purple', fontWeight: '600'}}>Projects</span>
         </Typography>
 
+        <Box id="project" sx={{ backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif", display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'top'}, justifyContent: 'flex-start', width: '100%', marginBottom: '20px' }}>
+          <Box sx={{ height: '200px', width: '200px', backgroundColor: 'grey', borderRadius: '24px' }} component="img" src="/p3.png">
+          </Box>
+          <Box sx={{marginLeft: {xs: '0px', md: '40px'}, width: {xs: '100%', md: 'calc(100% - 220px)'} }}>
+            <Box sx={{ width: '100%', display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}}}>
+              <Typography sx={{ fontSize: '24px', fontFamily: "Poppins, sans-serif", marginBottom: '10px', marginTop: {xs: "20px", md: '0px'} }}>
+                BiasBuddy
+              </Typography>
+              <Typography sx={{ fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", marginBottom: '10px', color: '#6a6a6a' }}>
+                <Typography component="a" href="https://devpost.com/software/bias-buddy-qhcrvl" sx={{ color: "#6a6a6a", textDecoration: 'none', "&:hover": {color: 'purple'}, fontSize: {xs: '16px', md:'24px'}, fontFamily: "Poppins, sans-serif", cursor: 'pointer' }}>devpost.com/software/bias-buddy</Typography> | February 2024
+              </Typography>
+            </Box>
+            <Typography sx={{ fontSize: '20px', color: '#6a6a6a', textAlign: {xs: 'center', md: "left"} }}>
+              This was my first time participating in QHacks at Queen's University, and my teammates and I successfully developed an application that detects bias in datasets using AI. We integrated a large language model (<b>LLM</b>) 
+              to help explain to users the types of bias present and provide suggestions for resolution. For the website, I utilized <b>HTML</b>, <b>CSS</b>, and <b>Flask</b> to create an appealing and user-friendly platform, allowing users to easily upload .CSV files. 
+              This project was challenging because I was working with several new technologies, including <b>LLM</b>s, bridging front-end and back-end systems written in different languages, and modeling datasets with <b>Kaggle</b>. Despite these challenges, 
+              through strong teamwork, we completed the hackathon with a functioning project and a valuable new set of skills!
+            </Typography>
+          </Box>
+        </Box>
+      
         <Box id="project" sx={{ backgroundColor: '#e7e7e7', borderRadius: '24px', padding: '40px', fontFamily: "Lato, sans-serif", display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'top'}, justifyContent: 'flex-start', width: '100%', marginBottom: '20px' }}>
           <Box sx={{ height: '200px', width: '200px', backgroundColor: 'grey', borderRadius: '24px' }} component="img" src="/p2.png">
           </Box>
@@ -158,7 +179,7 @@ export default function Home() {
                 </IconButton>
               </Tooltip>
               <Tooltip title="Resume">
-                <IconButton target="_blank" href="/resume.pdf" sx={{ backgroundColor: '#d7d7d7', padding: "15px", borderRadius: '10px', height: '100px', width: '100px' }}>
+                <IconButton target="_blank" href="/resume-updated.pdf" sx={{ backgroundColor: '#d7d7d7', padding: "15px", borderRadius: '10px', height: '100px', width: '100px' }}>
                   <DescriptionIcon sx={{ fontSize: '36px' }}/>
                 </IconButton>
               </Tooltip>
